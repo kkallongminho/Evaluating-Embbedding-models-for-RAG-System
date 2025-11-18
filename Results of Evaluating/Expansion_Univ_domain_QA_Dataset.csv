@@ -1,0 +1,7 @@
+model,model_name,recall@5,mrr,encode_time_s,time_per_query_s,num_queries,num_passages
+MiniLM,sentence-transformers/all-MiniLM-L6-v2,0.731477,0.584148,9.334835,0.000301,30988,5485
+MPNet,sentence-transformers/all-mpnet-base-v2,0.690913,0.535768,38.761746,0.001251,30988,5485
+MultiMiniLM,sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,0.643862,0.469082,14.661647,0.000473,30988,5485
+E5-small-v2,intfloat/e5-small-v2,0.763295,0.62894,14.696779,0.000474,30988,5485
+E5-base-v2,intfloat/e5-base-v2,0.786369,0.641427,38.345364,0.001237,30988,5485
+E5-large-v2,intfloat/e5-large-v2,0.746805,0.588588,123.898576,0.003998,30988,5485
